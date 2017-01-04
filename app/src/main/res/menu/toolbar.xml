@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <item
+        android:id="@+id/backup"
+        android:icon="@drawable/ic_backup"
+        android:title="Backup"
+        app:showAsAction="always"
+        android:menuCategory="alternative"
+        />
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/delete"
+        android:title="Delete"
+        app:showAsAction="ifRoom"
+        android:menuCategory="system"/>
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/setting"
+        android:title="Settings"
+        android:menuCategory="container"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/test"
+        android:icon="@drawable/setting"
+        android:title="Testting"
+        android:menuCategory="container"
+        app:showAsAction="always"/>
+</menu>
